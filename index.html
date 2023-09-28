@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✯ Barra de tragos ✯</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <main>
+        <div id="bebidas" class="hidden"></div>
+        <div><button class="animate__animated animate__pulse animate__infinite" id="boton" onclick="servirTrago()">¡Pedir un trago!</button></div>
+        <h2 class="hidden" id="contador">Vas pidiendo <span id="numero">0</span> bebidas</h2>
+    </main>
+    <footer>
+        <div>Hecho usando la API de <a href="https://www.thecocktaildb.com/">TheCocktailDB</a></div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
